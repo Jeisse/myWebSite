@@ -339,18 +339,18 @@ section h3.section-subheading {
 }
 
 #map {
-    display: block;
+    width: 100%;
+    height: 100%;
+    /*display: block;
     height: 100%;
     margin: 0 5%;
     box-shadow: inset 0 0 0 16px rgba(0, 0, 0, 0.3);
     border-radius: 50%;
     display: block;
     position: absolute;
-    width: 100%;
-    height: 100%;
     border-radius: 50%;
     background-position: center center;
-    /* -webkit-transition: all 0.4s linear; */
+    /* -webkit-transition: all 0.4s linear; 
     -moz-transition: all 0.4s linear;
     -o-transition: all 0.4s linear;
     -ms-transition: all 0.4s linear;
@@ -359,7 +359,7 @@ section h3.section-subheading {
     -moz-transform-origin: 50% 0%;
     -o-transform-origin: 50% 0%;
     -ms-transform-origin: 50% 0%;
-    transform-origin: 50% 0%;
+    transform-origin: 50% 0%;*/
 }
 
 #mapDiv {
